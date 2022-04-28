@@ -1,0 +1,162 @@
+#main{
+    max-width: 100vw;
+}
+
+.p-5{
+    padding: 5%;
+}
+
+.header{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -3;
+    background: rgba(0, 10, 41, 0.747) url(../assets/bg-home.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    color: white !important;
+}
+
+.header .row{
+    padding-top: 16%;
+    background-color: rgba(0, 6, 26, 0.678);
+    padding-bottom: 16.5%;
+}
+#navbar{
+    position: fixed !important;
+    z-index: 9000;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+#navber a{
+    color: white !important;
+    margin-top: 10px;
+}
+
+.containers h1{
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+.containers h2{
+    font-size: xx-large;
+    /* width: ; */
+}
+
+i.fa-globes{
+    background-image: url(../assets/globe.svg);
+}
+
+i.fa-mark{
+    background-image: url(../assets/mark.svg);
+}
+
+i.fa-people{
+    background-image: url(../assets/people.svg);
+}
+
+.mt-p{
+    font-size: x-large;
+}
+
+.mt-2{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+
+.containers{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+}
+.containerTwo{
+    position: absolute;
+    top: 260%;
+    left: 0;
+    right: 0;
+    /* margin-bottom: 100%; */
+}
+.containerThree{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center right;
+    top: 180%;
+    left: 0;
+    right: 0;
+}
+.sectionOne{
+    position: absolute;
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    top: 330%;
+    left: 0;
+    right: 0;
+}
+.sectionTwo{
+    position: absolute;
+    top: 390%;
+    left: 0;
+    right: 0;
+}
+section.containerThree div.div{
+    background-color: rgba(2, 39, 248, 0.596) !important;
+    color: #fff !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn.btns{
+    padding: 20px !important;
+    color: rgb(48, 48, 48);
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(33,33,33);
+    color: white;
+    top: 470%;
+    left: 0;
+    right: 0;
+}
+#footer{
+    padding-top: 40px;
+    padding-bottom: 30px;
+ background-color: rgb(30,30,30);
+}
+.footer{
+    padding-left: 7%;
+}
+.ml-2{
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.footer .justify-content-between .navbar-right{
+    margin-left: 20%;
+    
+}
+
+#footer li a, #footer ul a{
+    color: rgb(189, 189, 189) !important;
+}
